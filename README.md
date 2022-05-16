@@ -1,10 +1,6 @@
 # Algorithmic Trading Bots | Machine Learning Models
 
-This is a machine learning template that can be adapted to build unique algorithmic trading bots. 
-
-It aggregates data from any three sources and prepares the data using "Train, Test, Split", "RandomOversampler", and "StandardScaler." 
-
-Finally it runs the cleaned data through three (3) machine learning models:
+This is the beta version of an algorthmic trading model. The program connects to the YFinance API and pulls price data for any ticker symbol. It utilizes a linear regression parallel channel to create buy/sell signals and applies a series of machine learning algorithms to optimize returns.
 
 * Logistic Regression
 * Random Forest Classification
@@ -16,11 +12,5 @@ Finally it runs the cleaned data through three (3) machine learning models:
 ## Technologies
 
 ```python
-The program uses Pandas, NumPy, Scikit-learn, pathlib 
+The program uses Pandas, NumPy, Scikit-learn, pathlib, FinancialAnalysis libraries. 
 ```
-
----
-
-## Usage
-
-The current template uses cumulative returns data pulled from the Alpaca API for SPY, QQQ, and ARKK. This data is used as a placeholder. Users are meant to feed desired data through the model to build a customized trading bot for crypto, equities, or commodities.
