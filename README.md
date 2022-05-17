@@ -6,12 +6,14 @@ This is the beta version of an algorthmic trading model. The program connects to
 * Random Forest Classification
 * Support Vector Machine (SVM)
 
+The live app can be viewed at [Streamlit]([https://share.streamlit.io/pac1226/crypto-application/main/cryptoapp.py](https://share.streamlit.io/pac1226/algorithmic-trading-models/main/mlmodel.py))
+
 ---
 
 ## Technologies
 
 ```python
-The program uses Pandas, NumPy, Scikit-learn, Pathlib, FinancialAnalysis libraries. 
+The program uses Streamlit, Pandas, NumPy, Scikit-learn, Pathlib, FinancialAnalysis libraries. 
 ```
 
 ---
