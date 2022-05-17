@@ -25,6 +25,8 @@ A major caveat is that our algorithm has the benefit of hindsight. It makes buy/
 
 The Logistic Regression, Random Forest Classification, and Support Vector Machine models all failed to outpeform the human-designed trading bot, but often outperformed the buy/hold strategy.
 
+The following results are from 05/01/21 to 05/16/22.
+
 ![Stock Performance](images/stock_performance.png)
 
 ![Sector Performance](images/sector_performance.png)
