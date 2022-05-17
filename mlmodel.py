@@ -37,8 +37,9 @@ st.markdown("""
 This app pulls real-time price data for any stock ticker and backtests an algorithmic trading strategy based on desired buy/sell signals.
 * **Python libraries:** pandas, numpy, os, streamlit,financialanalysis, scikit-learn
 * **Data Source::** [YFinance](https://finance.yahoo.com/)
-* **Models:** linear regression and risk/return ratios
-* **Charts:** all charts are interactive, expandable and downloadable
+* **Models:** linear regression, logistic regression, random forest classification, support vector machine
+* **Charts:** charts are interactive, expandable and downloadable
+* **Buy/sell signals:** trendline, 1 standard deviation above/below, 2 standard deviations above/below
 """)
 
 
